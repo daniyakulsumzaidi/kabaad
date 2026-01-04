@@ -21,8 +21,6 @@ function Header() {
   return (
     <>
       <Navbar onNavigate={handleProtectedNav} />
-      {/* <Announcement /> */}
-      <Hero />
     </>
   );
 }
